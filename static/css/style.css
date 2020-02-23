@@ -1,4 +1,4 @@
-html {
+;html {
     box-sizing: border-box
 }
 
@@ -1464,12 +1464,6 @@ h2.publication-company img {
 
 .post-meta a {
     color: rgba(0, 0, 0, .6)
-}
-
-.post-meta a.comment-link,
-.post-meta a.twitter-link,
-.post-meta a.github-link {
-    margin: 0 .5rem
 }
 
 .post-meta a:hover {
