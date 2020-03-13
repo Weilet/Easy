@@ -6,11 +6,11 @@
 <div id="gitalk-container"></div>
 <script type="text/javascript">
 var gitalk = new Gitalk({
-	clientID: '',
-	clientSecret: '',
-	repo: '',
-	owner: '',
-	admin: [],
+	clientID: "{{ GITALK['clientID'] }}",
+	clientSecret: "{{ GITALK['clientSecret'] }}",
+	repo: "{{ GITALK['repo']}}",
+	owner: "{{ GITALK['owner'] }}",
+	admin: {{ GITALK['admin'] }},
 	id: md5(location.pathname),
 	distractionFreeMode: false
 })
