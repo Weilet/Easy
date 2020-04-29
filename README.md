@@ -5,15 +5,33 @@ An easy theme for Pelican
 
 ### 更新：
 
-- Back to Top，移动端一般自带，只给桌面添加了。
-- 黑暗模式，原css上有黑暗模式的样式，却没有使用。于是简单地加了一个黑暗模式（判断时间后决定是否修改样式）
+#### 2020-02
+
+---
+
+- BackToTop组件
+- 黑暗模式
 - Gitalk评论系统
 - Google Analytics
-- 重新编写了代码高亮
+- 代码高亮
 - 添加了TOC
+- 添加了归档时间线
+
+#### 2020-03
+
+---
+
 - SEO优化
-- 黑暗模式更换了实现，切换更加顺滑
+- 黑暗模式优化
 - 将Gitalk配置、Google analystic配置和主题解耦
+
+#### 2020-04
+
+---
+
+- 移除Gitalk
+- 移除BackToTop组件
+- 移除归档时间线
 
 ### 安装：
 
@@ -43,13 +61,7 @@ An easy theme for Pelican
    # that's all.
    ```
 
-3. 于pelicanconf.py配置Gitalk
-
-   ```python
-   ANALYSTIC_ID = "1234567890"
-   ```
-
-4. 于pelicanconf.py配置Google Analytics
+4. 于pelicanconf.py中配置Google Analytics
 
    ```python
    GITALK = {
@@ -61,11 +73,11 @@ An easy theme for Pelican
    }
    ```
 
-5. 安装主题
+4. 安装主题
 
-  ```shell
-  pelican-themes -i easy
-  ```
+   ```shell
+   pelican-themes -i easy
+   ```
 
 ### 实例
 [我的博客](https://weilet.me)
